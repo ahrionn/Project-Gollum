@@ -1,0 +1,33 @@
+#E1{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+/* Transformar em botão: */
+
+/*------------------------------*/
+#E1 li{
+	/*background-color: whitesmoke;
+	  width: 150px;*/
+	display: inline-block;
+	border: 20px solid transparent;
+}
+/*------------------------------*/
+
+#E1 li a:link,
+#E1 li a:visited {
+	font-family: sans-serif;
+	font-size: 25px;
+	font-variant-caps: small-caps;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#E1 li a:hover,
+#E1 li a:active{
+	color: darkcyan;
+	font-weight: bold;
+	text-decoration: underline;
+	transition: 0.2s;
+}	
